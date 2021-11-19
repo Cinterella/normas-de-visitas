@@ -1,0 +1,41 @@
+*{
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+h1{
+    color: #562ca3;
+}
+
+.bgk-blue{
+    background-color: blue;
+}
+
+#section{
+    background-color: red;
+    color: white;
+}
+
+
+.border{
+    border: 1px solid red;
+    /*border: 1px dashed red;*/
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+    body{
+        background-color: red;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: cornflowerblue;
+    }
+}

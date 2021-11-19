@@ -1,0 +1,51 @@
+*{
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+h1{
+    color: #562ca3;
+}
+/*
+.container{
+    display: flex;
+
+}
+
+.column{
+    width: 50%;
+    text-align: center;
+}
+
+.column img{
+    width: 100%;
+    max-width: 300px;
+}
+*/
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.column{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+/*
+
+@media only screen and (max-width: 992px){
+    body{
+        background-color: red;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: cornflowerblue;
+    }
+}
+*/
